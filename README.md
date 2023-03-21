@@ -1,3 +1,13 @@
+Required Packages:
+- pandas
+- numpy
+- scipy.stats (poisson)
+- customtkinter
+- requests
+- json
+- datetime (date)
+
+
 Files:
 
 App 
@@ -36,6 +46,7 @@ Statistics
 
 ----------
 
+
 Details
 
 This scoring model was taught to me by Action Backers, a sports analytics platform; with the intention of using publicly available data to predict the likelihood of outcomes for Hockey matches.  Only the model was taught on google sheets, and required lots of time consuming data entry.
@@ -45,9 +56,9 @@ The model uses the advanced metric, Expected Goals per-game to give each team an
 Example:
 - Boston Bruins - (xGF) expected goals for: 3.78/game  |  (xGA) expected goals against: 2.13/game
     - This means that the Bruins are expected to score 3.78 goals per game and allow 2.13 goals per game.  
-    - If we divide the bruins xGF by the league's average xGF (3.2), we get the Bruin's Attack Strength: 1.18
-    - If we divide the bruins xGA by the league's average xGA (3.05), we get the Bruin's Defensive Strength: 0.698
-- Meaning that the bruins on average score 18% more points and allow 30% less points than the typical team.  Ultimately meaning that the Bruins are a great Hockey team (Currently the best in the league)
+        - If we divide the bruins xGF by the league's average xGF (3.2), we get the Bruin's Attack Strength: 1.18
+        - If we divide the bruins xGA by the league's average xGA (3.05), we get the Bruin's Defensive Strength: 0.698
+- Meaning that the bruins on average score 18% more points and allow 30% less points than the typical team.  In other words, the Bruins are a great Hockey team (Currently the best in the league)
     - Good team:  High points for, Low points allowed
     - Bad team:  Low points for, High points allowed
     - Fun team:  High points for, High points allowed
