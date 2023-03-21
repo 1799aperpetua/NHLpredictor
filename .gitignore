@@ -1,0 +1,5 @@
+# Ignore complex example
+complex-example.py
+
+# Ignore our folder data
+.DS_Store
