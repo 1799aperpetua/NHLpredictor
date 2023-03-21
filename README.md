@@ -4,9 +4,13 @@ App
 1. main.py | This is the application, it contains all necessary functions and displays a GUI for the user to utilize
 
 Data (These datasets came from pro-hockey-reference)
+
 2. analytics.csv | This is our first data table, 5on5 Advanced Team Stats
+
 3. teamstats.csv | This is our second data table, Team Stats
+
 4. schedule.csv | This is the current year's NHL schedule
+
     /models
     5. actualanalytics.csv | Derived scoring model based on 5on5 actual stats
     6. expectedanalytics.csv | Derived scoring model based on 5on5 exp. stats
